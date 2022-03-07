@@ -207,7 +207,7 @@ int main() {
       
       //Get robot's parameters from the user
       while (j2.r <= 0){
-        printf("Length of the first link in cm: ");
+        printf("Length of the first link (xy-plane) in cm: ");
         scanf("%lf", &j2.r);
         if (j2.r <= 0){
           printf("Length must be greater than 0.\n");
@@ -215,7 +215,7 @@ int main() {
       }
       
       while (j3.r <= 0){
-        printf("Length of the second link in cm: ");
+        printf("Length of the second link (xy-plane) in cm: ");
         scanf("%lf", &j3.r);
         if (j3.r <= 0){
           printf("Length must be greater than 0.\n");
@@ -223,7 +223,7 @@ int main() {
       }
       
       while (j4.d <= 0){
-        printf("Length of the third link in cm: ");
+        printf("Length of the third link (z-axis) in cm: ");
         scanf("%lf", &j4.d);
         if (j4.d <= 0){
           printf("Length must be greater than 0.\n");
